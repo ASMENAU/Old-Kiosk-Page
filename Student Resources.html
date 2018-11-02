@@ -1,0 +1,211 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>New to Engineering</title>
+</head>
+
+<link href="styles.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="jquery-1.6.2.min.js"></script>
+<script type="text/javascript" src="jquery.poptrox-0.1.js"></script>
+
+
+    <script src="js-image-slider3.js" type="text/javascript"></script>
+    
+    <!-- Add fancyBox main JS and CSS files -->
+	<script type="text/javascript" src="jquery.fancybox.js"></script>
+    	<!-- Add jQuery library -->
+	<script type="text/javascript" src="../lib/jquery-1.9.0.min.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+			 *  Simple image gallery. Uses default settings
+			 */
+
+			$('.fancybox').fancybox();
+
+			/*
+			 *  Different effects
+			 */
+
+			// Change title type, overlay closing speed
+			$(".fancybox-effects-a").fancybox({
+				helpers: {
+					title : {
+						type : 'outside'
+					},
+					overlay : {
+						speedOut : 0
+					}
+				}
+			});
+
+			// Disable opening and closing animations, change title type
+			$(".fancybox-effects-b").fancybox({
+				openEffect  : 'none',
+				closeEffect	: 'none',
+
+				helpers : {
+					title : {
+						type : 'over'
+					}
+				}
+			});
+
+			// Set custom style, close if clicked, change title type and overlay color
+			$(".fancybox-effects-c").fancybox({
+				wrapCSS    : 'fancybox-custom',
+				closeClick : true,
+
+				openEffect : 'none',
+
+				helpers : {
+					title : {
+						type : 'inside'
+					},
+					overlay : {
+						css : {
+							'background' : 'rgba(238,238,238,0.85)'
+						}
+					}
+				}
+			});
+
+			// Remove padding, set opening and closing animations, close if clicked and disable overlay
+			$(".fancybox-effects-d").fancybox({
+				padding: 0,
+
+				openEffect : 'elastic',
+				openSpeed  : 150,
+
+				closeEffect : 'elastic',
+				closeSpeed  : 150,
+
+				closeClick : true,
+
+				helpers : {
+					overlay : null
+				}
+			});
+
+			/*
+			
+			 *  Thumbnail helper. Disable animations, hide close button, arrows and slide to next gallery item if clicked
+			 */
+
+			$('.fancybox-thumbs').fancybox({
+				prevEffect : 'none',
+				nextEffect : 'none',
+
+				closeBtn  : false,
+				arrows    : false,
+				nextClick : true,
+
+				helpers : {
+					thumbs : {
+						width  : 50,
+						height : 50
+					}
+				}
+			});
+		});
+	</script>
+	<style type="text/css">
+		.fancybox-custom .fancybox-skin {
+			box-shadow: 0 0 50px #222;
+		}
+	</style>
+
+
+
+
+<body>
+
+<div id="header">
+			<div class="shell">
+<div class="Logo"><img src="images/Kiosk Logo.jpg" height="90"/></h1>
+                </div>
+				<div id="nav">
+					<ul>
+					    <li><a href="index.html"><strong>Home<span>site home</span></strong></a></li>
+					    <li><a href="Welcome.html" ><strong>Welcome<span>new to NAU?</span></strong></a></li>
+					    <li><a href="Student Resources.html" class="active"><strong> Resources<span>for students</span></strong></a></li>
+					    <li><a href="Capstone.html"><strong>Capstone<span> Senior Projects</span></strong></a></li>
+					    <li><a href="Faculty.html"><strong>Faculty<span>get in touch</span></strong></a></li>
+					</ul>
+				</div>
+			</div>
+</div> 
+<div class="center-image">
+<img src="images/Center1.jpg" width="1100" height="880" />
+</div>
+
+<div class="button1">
+		<a class="fancybox-effects-d" href="images/Advising.jpg" title=""><img src="images/Advising Button.jpg" alt="" /></a>
+        </div>
+<div class="button2">        
+         <a class="fancybox-effects-d" href="images/Tutoring Large.jpg" title=""><img src="images/Tutoring Button.jpg" alt="" /></a>
+         </div>
+<div class="button3"> 
+         <a class="fancybox-effects-d" href="images/Progression Plans Big.jpg" title=""><img src="images/Progression Plans Button.jpg" alt="" /></a>
+         </div>
+<div class="button4"> 
+        <a class="fancybox-effects-d" href="#club" title=""><img src="images/Clubs Button.jpg" alt="" /></a>
+        </div>
+<div class="button5"> 
+		<a class="fancybox-effects-d" href="images/Building.jpg" title=""><img src="images/Building Button.jpg" alt="" /></a>
+        </div>
+<div class="button6"> 
+         <a class="fancybox-effects-d" href="images/Machine Shop.jpg" title=""><img src="images/Machine Shop Button.jpg" alt="" /></a>
+</div>
+<div class="button7"> 
+         <a class="fancybox-effects-d" href="images/Career Services.JPG" title=""><img src="images/Career Button.jpg" alt="" /></a>
+</div>
+<div class="button8"> 
+         <a class="fancybox-effects-d" href="images/Grad School.jpg" title=""><img src="images/Graduate Button.jpg" alt="" /></a>
+</div>
+
+	
+
+<div id="inline1" style="width:1100px;height:880px;display: none;">
+		<h3>Title Goes Here</h3>
+		<p>
+			<a href="Capstone.html">Capstone Project #3</a>
+		</p>
+	</div>
+<div id="inline2" style="width:1100px;display: none;">
+		<h3>Content Goes Here</h3>
+		<p>
+			
+		</p>
+  </div>
+
+<div id="club" style="width:1100px;height: 880px;display: none;">
+  <h3>Clubs And Organizations</h3>
+        <div class="club text">
+        Looking to get more involved? Join a student run club or organization. Click on an organization of your choice to find out more information. Not all clubs are listed yet so keep checking back for more info as it is added.
+        </div>
+        <div class="club image">
+		<img src="images/Club Banner1.jpg" width="1100" height="175" /> </div> 
+        <div class="club buttons">
+        <p><br/></p>
+        <p><br/></p>
+        <a href="club profile.html"><a href="club_ASME.html"><img src="images/ASME.jpg" width="200" height="100" /></a> 
+        <a href="club profile.html"><a href="club profile.html"><img src="images/ASCE.jpg" width="200" height="100" /></a> 
+        <a href="club profile.html"><a href="club profile.html"><img src="images/ACM.jpg" width="200" height="100" /></a>
+        <a href="club profile.html"><a href="club_AISES.html"><img src="images/AISE.jpg" width="200" height="100" /></a>
+        <a href="club profile.html"><a href="club profile.html"><img src="images/ACEFNS.jpg" width="200" height="100" /></a> 
+        <p><br/></p>
+        <a href="club profile.html"><a href="club_EWB.html"><img src="images/EWB.jpg" width="200" height="100" /></a>
+        <a href="club profile.html"><a href="club_IEEE.html"><img src="images/IEEE.jpg" width="200" height="100" /></a>
+        <a href="club profile.html"><a href="club profile.html"><img src="images/MEP.jpg" width="200" height="100" /></a>
+        <a href="club profile.html"><a href="club profile.html"><img src="images/SAE.jpg" width="200" height="100" /></a>
+        <a href="club profile.html"><a href="club_SHPE.html"><img src="images/SHPE.jpg" width="200" height="100" /></a></div>
+  <div class="club list">
+        </div>
+  </div>
+
+
+</body>
+</html>

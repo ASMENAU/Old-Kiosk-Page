@@ -1,0 +1,1669 @@
+* { margin: 0; padding: 0; outline: 0; }
+body {
+	color: #2062AD;
+	text-align: center;
+	font-family: Arial, sans-serif;
+	font-size: 50px;
+	line-height: inherit;
+	background-color: #000;
+	background-image: url(images/bg.gif);
+	background-repeat: repeat-x;
+	background-position: 0 0;
+}
+
+a {
+	color: #2062AD;
+	cursor: pointer;
+}
+p {
+	color: #666666;
+}
+p1 {
+	color: #000000;
+	float: left;
+}
+p2 {
+	color: #000000;
+	float: right;
+}
+td {
+	font-size:36px;
+}
+.space { 
+	margin: 0 auto; 
+	width: 1900px; 
+	height: 10px;}
+.shell { 
+	margin: 0 auto; 
+	width: 1900px;}
+
+
+.filler {
+	margin: 0 auto;
+	width: 1900px;
+	height: 120px;}
+.blankpage {
+	margin: 0 auto;
+	width: 1900px;
+	height: 920px;}
+.questionbox{
+	position: absolute;
+	left: 1500px;
+	top: 980px;
+	height: 90px;
+	width: 400px;
+	}		
+.questions{
+		position: absolute;
+		font-family:"Trebuchet MS", Arial, 			Helvetica, sans-serif;
+		font-size:24px;
+		height:auto;
+		width:auto;
+		padding: 5px;
+		bottom:auto;
+		}
+			
+#text p {
+	margin: 0 auto;
+	width: 1580px;
+	hieght: 200px:
+	font size: 10px;
+	color: #FFFFFF;
+}
+
+#text {
+	overflow: hidden;
+	width: 1700px;
+	height: 150px;
+	font-size: 32px;
+	margin: 0px auto 10px auto;
+	background: #022D59;
+}
+
+#header{ 
+	height:90px; 
+	background: url(images/header1.jpg) repeat-x;}
+
+
+h1#logo a { 
+	height: 80px; 
+	width: 400px; 
+	background: url(images/logo2.gif) no-repeat 0 0; 						float: left; 
+	margin-top: 0px; 
+	text-decoration: none; }
+h1#logo a:hover { text-decoration: none; }
+h1#logo span { 
+	font-size: 10px; 
+	text-align: right; 
+	line-height: 13px; 
+	color: #fff;  
+	letter-spacing: 1px; 
+	word-spacing: 4px; 
+	display: block; 
+	padding: 25px 0 0 44px; 
+	color:#909090; }
+
+#footer{
+	position:absolute;
+	height: 90px;
+	background: url(images/header1.jpg) repeat-x;
+	width: 1920px;
+	bottom: 0px;
+	left: 0px;
+	
+}
+.Logo{
+	position: absolute;
+	padding: 0px;
+	text-align: center;
+	left:10px;
+	top: 0px;
+	height: 90px;
+}
+
+
+/* Header Navigation */
+
+#nav{ 
+	height:90px; 
+	float: right; 
+	display: inline; 
+	width:895px}
+#nav ul{ 
+	list-style-type: none; 
+	height:90px; 
+	background:url(images/divider.gif) repeat-y 0 0; 	float: right; 
+	margin-left:0px; 
+	padding-left:1px;}
+#nav li{ 
+	float: left; 
+	height:90px; 
+	background:url(images/divider.gif) repeat-y right 0;
+	width:152px; 
+	text-align: center; }
+#nav li a{ 
+	float: left; 
+	width:150px; 
+	margin-right:2px; 
+	font-size: 16px; 
+	color:#fff; 
+	font-weight: bold; 
+	height:67px; 
+	padding-top:20px; 
+	text-decoration: none;}
+#nav li a:hover, #nav li a.active{ 
+	text-decoration: none; 
+	background:#2b2b2b}
+#nav li a strong{ 
+	font-size: 16px; 
+	color:#fff; 
+	text-align: center;}
+#nav li a span{ 
+	font-size: 10px; 
+	color:#959595; 
+	display: block; 
+	line-height:11px;}
+
+
+
+
+#content{ 
+	background:#202020 url(images/cnt-bg.jpg) repeat-x 0 0;
+	padding-top:37px;}
+
+/*bottom buttons*/
+
+#poptrox {
+	width: 1900px;
+	margin: 0px auto;
+	background: #E8E8E8;
+}
+
+#gallery {
+	overflow: hidden;
+	margin: 0px 0px 0px 10px;
+	padding: 0px;
+	list-style: none;
+	left: -4px;
+	top: 423px;
+}
+
+#gallery li {
+	float: left;
+	margin: 15px;
+	padding: 0px 20px;
+}
+
+
+#gallery img {
+	opacity:1;
+	filter: alpha(opacity=40);
+}
+
+#gallery a:hover img {
+	opacity: 1;
+	filter: alpha(opacity=100);
+}
+
+
+/*****************************************************
+  Home Page
+*****************************************************/
+
+.splash { 
+	margin: 0 auto; 
+	width: 1920px; 
+	height: 400px;}
+/* Picture original size = 1024 by 396*/
+
+.slideshow2 {
+	position: absolute;
+	left: 10px;
+	top: 675px;
+	height: auto;
+	}
+.slideshow3 {
+	position: absolute;
+	left: 1310px;
+	top: 675px;
+	height: auto;
+	}
+
+.sidebox1 {
+	position: absolute;
+	padding: 0px;
+	width:100px;
+	height:150px;
+	top: 510px;
+	right: auto;
+	left: 0px;
+	bottom: auto;
+	background-position: center center;
+	margin: 0px;
+	background: #095e03;
+	}
+.sidebox2 {
+	position: absolute;
+	padding: 0px;
+	width:100px;
+	height:150px;
+	top: 510px;
+	right: auto;
+	left: 1820px;
+	bottom: auto;
+	background-position: center center;
+	margin: 0px;
+	background: #095e03;
+	}
+/*****************************************************
+  Professor Profile Page
+*****************************************************/
+
+
+#foot{
+	position:absolute;
+	height: 90px;
+	background: url(images/header1.jpg) repeat-x;
+	width: 1920px;
+	top: 990px;
+	}
+
+.box{
+	float: right;
+	background: #F0C;
+	position: right top;
+	width: auto;
+	padding: 0px;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	}
+	
+.picture{
+	position: absolute;
+	padding: 30px;
+	width:511px;
+	height:810px;
+	background-color: #003B7C;
+	border: medium solid #000;
+	top: 100px;
+	left: 10px;
+	bottom: auto;
+	background-position: center center;
+	}
+
+.tagbio{
+	width:475px;
+	height: 900px;
+	float: left;
+	margin-left:10px;
+	}
+
+.nametag{
+	width:336px;
+	height:208px;
+	background-image:url(images/my%20name%20is.jpg); 
+	position: absolute;
+	left: 600px;
+	top: 100px;
+	}
+
+.name{
+		float:left;
+		width: 336;
+		margin-top:62px;
+		margin-left: 10px;
+		margin-right: 10px;
+		margin-bottom: 10px;
+		font-family: "Comic Sans MS", cursive;
+		font-size: 45px;
+		}
+
+.focus{
+	position:absolute;
+	height: 208px;
+	width: 254px;
+	left:950px;
+	top: 100px;
+	background-image: url(teacher%20profile/ASME%20logo.jpg);
+	}
+	
+
+.profile{
+	position: absolute;
+	width:658px;
+	height:870px;
+	border: medium solid #5E8F80;
+	left: 1220px;
+	top: 100px;
+	}
+	
+.bio{
+		font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+		font-size: 24px;
+		margin:5px;
+		width: auto;
+		text-align:justify;
+		padding:10px;
+		}
+		
+.research{
+		font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+		font-size: 36px;
+		margin:5px;
+		width: auto;
+		text-align:justify;
+		padding:10px;
+		border-top:medium dashed #5E8F80;
+		}
+	
+.classoffice{
+	position: absolute;
+	left: 600px;
+	top: 320px;
+	border: medium solid #5E8F80;
+	height: 650px;
+	width: 600px;
+	}	
+	
+.classlist{
+		text-align:left;
+		font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+		font-size:30px;
+		}
+		
+.office{
+		position: absolute;
+		font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+		font-size:48px;
+		height:auto;
+		width:auto;
+		padding: 5px;
+		bottom:auto;
+		border-top:medium dashed #5E8F80;
+		}
+	
+.origin{
+	margin:20px;
+	position: absolute;
+	vertical-align:top;
+	border: medium solid #5E8F80;
+	width:354px;
+	height: 637px;
+	text-align:left;
+	padding: 5px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: x-large;
+	left: 1509px;
+	top: 82px;
+	}
+.backbutton {
+	position: absolute;	
+	left: 20px;
+	top: 980px;
+	height: 90px;
+	width: 300px;
+	bottom: auto;
+	background-position: center center;
+	margin: 0px;
+}		
+
+/*****************************************************
+  Slideshow
+*****************************************************/
+
+
+
+/* http://www.menucool.com */
+
+
+#sliderFrame {position:absolute; left: 20px; top: 675px;width:600px;} /*remove the "margin:0 auto;" if you want to align the whole slider to the left side*/
+#sliderFrame1 {position:absolute; left: 660px; top: 675px;width: 600px;}
+#sliderFrame2 {position:absolute; left: 1300px; top: 675px;width: 600px;}
+#sliderFrame3 {position:absolute; left: 10px; top: 100px;width: 600px;height: 360px;}
+        
+#slider {
+    width:600px;height:300px;/* Make it the same size as your images */
+	background:#fff url(loading.gif) no-repeat 50% 50%;
+	position:relative;
+	margin:0 auto;/*make the image slider center-aligned */
+}
+#slider img {
+	position:absolute;
+	border:none;
+	display:none;
+}
+
+/* the link style (if an image is wrapped in a link) */
+#slider a.imgLink {
+	z-index:2;
+	display:none;position:absolute;
+	top:0px;left:0px;border:0;padding:0;margin:0;
+	width:100%;height:100%;
+}
+/*test*/
+#slider1 {
+    width:600px;height:300px;/* Make it the same size as your images */
+	background:#fff url(loading.gif) no-repeat 50% 50%;
+	position:relative;
+	margin:0 auto;/*make the image slider center-aligned */
+    
+}
+#slider1 img {
+	position:absolute;
+	border:none;
+	display:none;
+}
+
+/* the link style (if an image is wrapped in a link) */
+#slider1 a.imgLink {
+	z-index:2;
+	display:none;position:absolute;
+	top:0px;left:0px;border:0;padding:0;margin:0;
+	width:100%;height:100%;
+}
+#slider2 {
+    width:600px;height:300px;/* Make it the same size as your images */
+	background:#fff url(loading.gif) no-repeat 50% 50%;
+	position:relative;
+	margin:0 auto;/*make the image slider center-aligned */
+}
+#slider2 img {
+	position:absolute;
+	border:none;
+	display:none;
+}
+
+/* the link style (if an image is wrapped in a link) */
+#slider2 a.imgLink {
+	z-index:2;
+	display:none;position:absolute;
+	top:0px;left:0px;border:0;padding:0;margin:0;
+	width:100%;height:100%;
+}
+#slider3 {
+    width:600px;height:360px;/* Make it the same size as your images */
+	background:#fff url(loading.gif) no-repeat 50% 50%;
+	position:relative;
+	margin:0 auto;/*make the image slider center-aligned */
+    
+}
+#slider3 img {
+	position:absolute;
+	border:none;
+	display:none;
+}
+
+/* the link style (if an image is wrapped in a link) */
+#slider3 a.imgLink {
+	z-index:2;
+	display:none;position:absolute;
+	top:0px;left:0px;border:0;padding:0;margin:0;
+	width:100%;height:100%;
+}
+
+
+
+/* Caption styles */
+div.mc-caption-bg, div.mc-caption-bg2 {
+	position:absolute;
+	width:100%;
+	height:auto;
+	padding:0;
+	left:0px; /*if the caption needs to be aligned from right, specify by right instead of left. i.e. right:20px;*/
+	bottom:0px;/*if the caption needs to be aligned from top, specify by top instead of bottom. i.e. top:150px;*/
+	z-index:3;
+	overflow:hidden;
+	font-size: 0;
+}
+div.mc-caption-bg {
+	background-color:black;
+}
+div.mc-caption {
+	font: bold 14px/20px Arial;
+	color:#EEE;
+	z-index:4;
+	padding:10px 0;/*Adding a padding-left or padding-right here will make the caption area wider than its background. Sometimes you may need to define its width again here to keep it the same width as its background area (div.mc-caption-bg).*/
+	text-align:center;
+}
+div.mc-caption a {
+	color:#FB0;
+}
+div.mc-caption a:hover {
+	color:#DA0;
+}
+
+
+/* ------ built-in navigation bullets wrapper ------*/
+/*
+div.navBulletsWrapper  {
+	top:320px; left:280px; /* Its position is relative to the #slider 
+	width:150px;
+	background:none;
+	padding-left:20px;
+	position:relative;
+	z-index:5;
+	cursor:pointer;
+}
+
+/* each bullet */
+/*
+div.navBulletsWrapper div 
+{
+    width:11px; height:11px;
+    background:transparent url(bullet.png) no-repeat 0 0;
+    float:left;overflow:hidden;vertical-align:middle;cursor:pointer;
+    margin-right:11px;/* distance between each bullet*/
+  /*  _position:relative;/*IE6 hack*//*
+}
+
+/*
+div.navBulletsWrapper div.active {background-position:0 -11px;}
+*/
+
+/* --------- Others ------- */
+#slider 
+{
+	transform: translate3d(0,0,0);
+    -ms-transform:translate3d(0,0,0);
+    -moz-transform:translate3d(0,0,0);
+    -o-transform:translate3d(0,0,0);
+}
+
+/*---------------------------------------------------- CAPSTONE PAGE STUFFS
+----------------------------------------------------*/
+/*
+.captitle{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:60px;
+	float:left;
+	padding:5px;
+	Margin:5px;
+	border-style:groove;
+	border-color:#FF8040;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	}
+	
+.capmajor{
+	font-family:"Comic Sans MS", cursive;
+	font-size:24px;
+	font-color:inherit;
+	}	
+.capgrouppicture{
+	float:left;
+	width: 500px;
+	height: 500px;
+	padding:5px;
+	margin-top:5px;
+	Margin-left:5px;
+	margin-right:5px;
+	margin-bottom:5px;
+	border-style:groove;
+	border-color:#FF8040;
+	left: 5px;
+	bottom: auto;
+	top: auto;
+	right: auto;
+	clip: rect(auto,auto,auto,auto);
+	}
+*/
+
+/*---------------------------------------------------- CAPSTONE PAGE STUFFS
+----------------------------------------------------*/
+
+.captitle {
+	width:auto;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:60px;
+	float:left;
+	padding:5px;
+	Margin:5px;
+	border-style:groove;
+	border-color:#FF8040;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	position: relative;
+	
+}
+.capmembers{
+	width:auto;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:24px;
+	float:left;
+	padding:5px;
+	Margin:5px;
+	font-style: normal;
+	line-height: normal;
+	border: thin solid #FF8040;
+	
+	vertical-align: bottom;
+	
+	}
+.capmajor {
+	font-family:"Comic Sans MS", cursive;
+	font-size:24px;
+	font-color:inherit;
+}
+.cappicture {
+	
+	width: auto;
+	height: 500px;
+	padding:5px;
+	Margin: 5px;
+	border-style:groove;
+	border-color:#FF8040;
+	FLOAT: center;
+}
+.abstract{
+	height: auto;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:32px;
+	padding:5px;
+	Margin:5px;
+	font-weight: bold;
+	
+	}
+.capabstract {
+	height:auto;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:32px;
+	padding:5px;
+	Margin:5px;
+	text-align: left;
+	border-style:groove;
+	border-color:#FF8040;
+	font-style: normal;
+	line-height: normal;
+	
+	}
+.QRcode{
+	Margin:5px;
+	float: right;
+	padding: 10px;
+	border-style:groove;
+	border-color:#FF8040;
+	vertical-align:bottom;
+	}
+.QRIns{
+	height:auto;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:32px;
+	padding:5px;
+	Margin:5px;
+	text-align: right;
+	/*border-style:groove;
+	border-color:#FF8040;*/
+	font-style: normal;
+	line-height: normal;
+	vertical-align:text-bottom;
+	}
+	
+	/*-----------------------End CAPSTONE CSS Stuffs----------------------------*/
+	
+	#footer2 {
+	position:absolute;
+	height: 90px;
+	background: url(images/header1.jpg) repeat-x;
+	width: 1920px;
+	top: 820px;
+	left: 0px;
+	}
+
+/* Welcome Page Pop Ups */
+
+.standard {
+	position: absolute;
+	padding: 0px;
+}
+.pop1 {
+	position: absolute;
+	padding: 0px;
+	width:175px;
+	height:175px;
+	top: -50px;
+	right: auto;
+	left: 620px;
+	bottom: auto;
+	background-position: center center;
+	margin: 0px;
+}
+.pop2 {
+	position: absolute;
+	padding: 0px;
+	width:360px;
+	height:175px;
+	top: -50px;
+	right: auto;
+	left: 805px;
+	bottom: auto;
+	background-position: center center;
+	margin: 0px;
+}
+.pop3 {
+	position: absolute;
+	padding: 0px;
+	width:175px;
+	height:175px;
+	top: -50px;
+	right: auto;
+	left: 1175px;
+	bottom: auto;
+	background-position: center center;
+	margin: 0px;
+}
+.pop4 {
+	position: absolute;
+	padding: 0px;
+	width:360px;
+	height:175px;
+	top: -50px;
+	right: auto;
+	left: 1360px;
+	bottom: auto;
+	background-position: center center;
+	margin: 0px;
+}
+.pop5 {
+	position: absolute;
+	padding: 0px;
+	width:175px;
+	height:360px;
+	top: -50px;
+	right: auto;
+	left: 1730px;
+	bottom: auto;
+	background-position: center center;
+	margin: 0px;
+}
+.pop6 {
+	position: absolute;
+	padding: 0px;
+	width:360px;
+	height:175px;
+	top: 135px;
+	right: auto;
+	left: 620px;
+	bottom: auto;
+	background-position: center center;
+	margin: 0px;
+}
+.pop7 {
+	position: absolute;
+	padding: 0px;
+	width:360px;
+	height:175px;
+	top: 135px;
+	right: auto;
+	left: 990px;
+	bottom: auto;
+	background-position: center center;
+	margin: 0px;
+}
+.pop8 {
+	position: absolute;
+	padding: 0px;
+	width:360px;
+	height:175px;
+	top: 135px;
+	right: auto;
+	left: 1360px;
+	bottom: auto;
+	background-position: center center;
+	margin: 0px;
+}
+.pop9 {
+	position: absolute;
+	padding: 0px;
+	width:175px;
+	height:175px;
+	top: 320px;
+	right: auto;
+	left: 990px;
+	bottom: auto;
+	background-position: center center;
+	margin: 0px;
+}
+.pop10 {
+	position: absolute;
+	padding: 0px;
+	width:175px;
+	height:175px;
+	top: 320px;
+	right: auto;
+	left: 250px;
+	bottom: auto;
+	background-position: center center;
+	margin: 0px;
+}
+
+.pop11 {
+	position: absolute;
+	padding: 0px;
+	width:360px;
+	height:175px;
+	top: 320px;
+	right: auto;
+	left: 435px;
+	bottom: auto;
+	background-position: center center;
+	margin: 0px;
+}
+.pop12 {
+	position: absolute;
+	padding: 0px;
+	width:175px;
+	height:360px;
+	top: 320px;
+	right: auto;
+	left: 805px;
+	bottom: auto;
+	background-position: center center;
+	margin: 0px;
+}
+.pop13 {
+	position: absolute;
+	padding: 0px;
+	width:175px;
+	height:175px;
+	top: 320px;
+	right: auto;
+	left: 1175px;
+	bottom: auto;
+	background-position: center center;
+	margin: 0px;
+}
+.pop14 {
+	position: absolute;
+	padding: 0px;
+	width:175px;
+	height:360px;
+	top: 320px;
+	right: auto;
+	left: 1360px;
+	bottom: auto;
+	background-position: center center;
+	margin: 0px;
+}
+.pop15 {
+	position: absolute;
+	padding: 0px;
+	width:360px;
+	height:175px;
+	top: 320px;
+	right: auto;
+	left: 1545px;
+	bottom: auto;
+	background-position: center center;
+	margin: 0px;
+}
+.pop16 {
+	position: absolute;
+	padding: 0px;
+	width:175px;
+	height:175px;
+	top: 505px;
+	right: auto;
+	left: 1175px;
+	bottom: auto;
+	background-position: center center;
+	margin: 0px;
+}
+.pop17 {
+	position: absolute;
+	padding: 0px;
+	width:175px;
+	height:175px;
+	top: 505px;
+	right: auto;
+	left: 1545px;
+	bottom: auto;
+	background-position: center center;
+	margin: 0px;
+}
+.pop18 {
+	position: absolute;
+	padding: 0px;
+	width:175px;
+	height:360px;
+	top: 505px;
+	right: auto;
+	left: 1730px;
+	bottom: auto;
+	background-position: center center;
+	margin: 0px;
+}
+.pop19 {
+	position: absolute;
+	padding: 0px;
+	width:360px;
+	height:175px;
+	top: 505px;
+	right: auto;
+	left: 250px;
+	bottom: auto;
+	background-position: center center;
+	margin: 0px;
+}
+.pop20 {
+	position: absolute;
+	padding: 0px;
+	width:175px;
+	height:175px;
+	top: 505px;
+	right: auto;
+	left: 620px;
+	bottom: auto;
+	background-position: center center;
+	margin: 0px;
+}
+.pop21 {
+	position: absolute;
+	padding: 0px;
+	width:175px;
+	height:175px;
+	top: 505px;
+	right: auto;
+	left: 990px;
+	bottom: auto;
+	background-position: center center;
+	margin: 0px;
+}
+.pop22 {
+	position: absolute;
+	padding: 0px;
+	width:230px;
+	height:545px;
+	top: 320px;
+	right: auto;
+	left: 10px;
+	bottom: auto;
+	background-position: center center;
+	margin: 0px;
+}
+.pop23 {
+	position: absolute;
+	padding: 0px;
+	width:175px;
+	height:175px;
+	top: 690px;
+	right: auto;
+	left: 250px;
+	bottom: auto;
+	background-position: center center;
+	margin: 0px;
+}
+.pop24 {
+	position: absolute;
+	padding: 0px;
+	width:360px;
+	height:175px;
+	top: 690px;
+	right: auto;
+	left: 435px;
+	bottom: auto;
+	background-position: center center;
+	margin: 0px;
+}
+.pop25 {
+	position: absolute;
+	padding: 0px;
+	width:175px;
+	height:175px;
+	top: 690px;
+	right: auto;
+	left: 805px;
+	bottom: auto;
+	background-position: center center;
+	margin: 0px;
+}
+.pop26 {
+	position: absolute;
+	padding: 0px;
+	width:360px;
+	height:175px;
+	top: 690px;
+	right: auto;
+	left: 990px;
+	bottom: auto;
+	background-position: center center;
+	margin: 0px;
+}
+.pop27 {
+	position: absolute;
+	padding: 0px;
+	width:360px;
+	height:175px;
+	top: 690px;
+	right: auto;
+	left: 1360px;
+	bottom: auto;
+	background-position: center center;
+	margin: 0px;
+}
+/* New Style popup*/
+
+/*! fancyBox v2.1.4 fancyapps.com | fancyapps.com/fancybox/#license */
+.fancybox-wrap,
+.fancybox-skin,
+.fancybox-outer,
+.fancybox-inner,
+.fancybox-image,
+.fancybox-wrap iframe,
+.fancybox-wrap object,
+.fancybox-nav,
+.fancybox-nav span,
+.fancybox-tmp
+{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	outline: none;
+	vertical-align: top;
+}
+
+.fancybox-wrap {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 8020;
+}
+
+.fancybox-skin {
+	position: relative;
+	background: #f9f9f9;
+	color: #444;
+	text-shadow: none;
+	-webkit-border-radius: 4px;
+	   -moz-border-radius: 4px;
+	        border-radius: 4px;
+}
+
+.fancybox-opened {
+	z-index: 8030;
+}
+
+.fancybox-opened .fancybox-skin {
+	-webkit-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+	   -moz-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+	        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+.fancybox-outer, .fancybox-inner {
+	position: relative;
+}
+
+.fancybox-inner {
+	overflow: hidden;
+}
+
+.fancybox-type-iframe .fancybox-inner {
+	-webkit-overflow-scrolling: touch;
+}
+
+.fancybox-error {
+	color: #444;
+	font: 14px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;
+	margin: 0;
+	padding: 15px;
+	white-space: nowrap;
+}
+
+.fancybox-image, .fancybox-iframe {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.fancybox-image {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+#fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
+	background-image: url('fancybox_sprite.png');
+}
+
+#fancybox-loading {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-top: -22px;
+	margin-left: -22px;
+	background-position: 0 -108px;
+	opacity: 0.8;
+	cursor: pointer;
+	z-index: 8060;
+}
+
+#fancybox-loading div {
+	width: 44px;
+	height: 44px;
+	background: url('fancybox_loading.gif') center center no-repeat;
+}
+
+.fancybox-close {
+	position: absolute;
+	top: -18px;
+	right: -18px;
+	width: 36px;
+	height: 36px;
+	cursor: pointer;
+	z-index: 8040;
+}
+
+.fancybox-nav {
+	position: absolute;
+	top: 0;
+	width: 40%;
+	height: 100%;
+	cursor: pointer;
+	text-decoration: none;
+	background: transparent url('blank.gif'); /* helps IE */
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	z-index: 8040;
+}
+
+.fancybox-prev {
+	left: 0;
+}
+
+.fancybox-next {
+	right: 0;
+}
+
+.fancybox-nav span {
+	position: absolute;
+	top: 50%;
+	width: 36px;
+	height: 34px;
+	margin-top: -18px;
+	cursor: pointer;
+	z-index: 8040;
+	visibility: hidden;
+}
+
+.fancybox-prev span {
+	left: 10px;
+	background-position: 0 -36px;
+}
+
+.fancybox-next span {
+	right: 10px;
+	background-position: 0 -72px;
+}
+
+.fancybox-nav:hover span {
+	visibility: visible;
+}
+
+.fancybox-tmp {
+	position: absolute;
+	top: -99999px;
+	left: -99999px;
+	visibility: hidden;
+	max-width: 99999px;
+	max-height: 99999px;
+	overflow: visible !important;
+}
+
+/* Overlay helper */
+
+.fancybox-lock {
+	overflow: hidden;
+}
+
+.fancybox-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	display: none;
+	z-index: 8010;
+	background: url('fancybox_overlay.png');
+}
+
+.fancybox-overlay-fixed {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}
+
+.fancybox-lock .fancybox-overlay {
+	overflow: auto;
+	overflow-y: scroll;
+}
+
+/* Title helper */
+
+.fancybox-title {
+	visibility: hidden;
+	font: normal 13px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;
+	position: relative;
+	text-shadow: none;
+	z-index: 8050;
+}
+
+.fancybox-opened .fancybox-title {
+	visibility: visible;
+}
+
+.fancybox-title-float-wrap {
+	position: absolute;
+	bottom: 0;
+	right: 50%;
+	margin-bottom: -35px;
+	z-index: 8050;
+	text-align: center;
+}
+
+.fancybox-title-float-wrap .child {
+	display: inline-block;
+	margin-right: -100%;
+	padding: 2px 20px;
+	background: transparent; /* Fallback for web browsers that doesn't support RGBa */
+	background: rgba(0, 0, 0, 0.8);
+	-webkit-border-radius: 15px;
+	   -moz-border-radius: 15px;
+	        border-radius: 15px;
+	text-shadow: 0 1px 2px #222;
+	color: #FFF;
+	font-weight: bold;
+	line-height: 24px;
+	white-space: nowrap;
+}
+
+.fancybox-title-outside-wrap {
+	position: relative;
+	margin-top: 10px;
+	color: #fff;
+}
+
+.fancybox-title-inside-wrap {
+	padding-top: 10px;
+}
+
+.fancybox-title-over-wrap {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	color: #fff;
+	padding: 10px;
+	background: #000;
+	background: rgba(0, 0, 0, .8);
+}
+	
+/*Capstone Search */
+
+.list{
+		font-family:"Trebuchet MS", Arial, 			Helvetica, sans-serif;
+		font-size:36px;
+		float: left;
+		height:auto;
+		width:auto;
+		padding: 20px;
+		bottom:auto;
+		}
+/*****************************************************
+  Student Resources Page
+*****************************************************/
+.center-image{
+	border: medium solid #000;
+	width: 1100px;
+	height: 880px;
+	position: absolute;
+	left: 405px;
+	top: 100px;
+	 
+	}
+
+.button1{
+	border: medium solid #000;
+	position: absolute;
+	left: 20px;
+	top: 100px;
+	}
+.button2{
+	border: medium solid #000;
+	position: absolute;
+	left: 20px;
+	top: 335px;
+	}
+.button3{
+	border: medium solid #000;
+	position: absolute;
+	left: 20px;
+	top: 570px;
+	}
+.button4{
+	border: medium solid #000;
+	position: absolute;
+	left: 20px;
+	top: 805px;
+	}
+.button5{
+	border: medium solid #000;
+	position: absolute;
+	left: 1525px;
+	top: 100px;
+	}
+.button6{
+	border: medium solid #000;
+	position: absolute;
+	left: 1525px;
+	top: 335px;
+	}
+.button7{
+	border: medium solid #000;
+	position: absolute;
+	left: 1525px;
+	top: 570px;
+	}
+.button8{
+	border: medium solid #000;
+	position: absolute;
+	left: 1525px;
+	top: 805px;
+	}
+.club text{
+	color: #000000;
+	font-family:"Trebuchet MS", Arial, 			Helvetica, sans-serif;
+	font-size:10px;
+	float: left;
+	height:auto;
+	width:auto;
+	padding: 20px;
+	bottom:auto;
+	}
+#club {
+	color: #000000;
+	font-family:"Trebuchet MS", Arial, 			Helvetica, sans-serif;
+	font-size:36px;
+	float: left;
+	height:auto;
+	width:auto;
+	padding: 0px;
+	bottom:auto;
+	}
+.club list{
+	color: #000000;
+	font-family:"Trebuchet MS", Arial, 			Helvetica, sans-serif;
+	font-size:10px;
+	float: left;
+	height:auto;
+	width:auto;
+	padding: 20px;
+	bottom:auto;
+	}
+.club image{
+	float: left;
+	height: 175px;
+	}
+.club buttons{
+	padding: 20px;
+	margin: 20px 20px 20px 20px;
+	text-align: left;
+}
+/*****************************************************
+  Capstone Profile Page
+*****************************************************/
+
+.CapstoneTitle{
+	position: absolute;
+	padding: 10px;
+	left: 20px;
+	top: 100px;
+	hight: 100px;
+	width: 1000px;
+	border: medium solid #022D59;
+	font-size: 68px;
+	color: #095E03;
+	font-family: "Trebuchet MS", Arial, 						Helvetica, sans-serif;
+}
+.CapstoneTitleLong{
+	position: absolute;
+	padding: 10px;
+	left: 20px;
+	top: 100px;
+	hight: 100px;
+	width: 1000px;
+	border: medium solid #022D59;
+	font-size: 45px;
+	color: #095E03;
+	font-family: "Trebuchet MS", Arial, 						Helvetica, sans-serif;
+}
+.CapstoneAbstract{
+	position: absolute;
+	padding: 10px;
+	text-align: left;
+	left: 20px;
+	top: 250px;
+	height: 300px;
+	width: 1000px;
+	border: medium solid #022D59;
+	font-size: 36px;
+	color: #095E03;
+	font-family: "Trebuchet MS", Arial, 						Helvetica, sans-serif;
+}
+p3{
+	color: #999999;
+	font-size: 24px;
+	font-family: "Trebuchet MS", Arial, 						Helvetica, sans-serif;
+}
+.CapstoneMembers{
+	position: absolute;
+	padding: 10px;
+	text-align: left;
+	left: 1080px;
+	top: 100px;
+	height: 100px;
+	width: 800px;
+	border: medium solid #022D59;
+}
+m1 {
+	color: #095E03;
+	text-align: left;
+	font-size: 32px;
+	font-family: "Trebuchet MS", Arial, 						Helvetica, sans-serif;
+}
+m2 {
+	color: #095E03;
+	font-size: 24px;
+	font-family: "Trebuchet MS", Arial, 						Helvetica, sans-serif;
+}
+.CapstoneDetails{
+	position: absolute;
+	padding: 10px;
+	text-align: left;
+	left: 1080px;
+	top: 600px;
+	height: 300px;
+	width: 800px;
+	border: medium solid #022D59;
+	font-size: 36px;
+	color: #095E03;
+	font-family: "Trebuchet MS", Arial, 						Helvetica, sans-serif;
+}
+.CapstonePhoto1{
+	position: absolute;
+	padding: 10px;
+	text-align: center;
+	left: 1080px;
+	top: 250px;
+	height: 300px;
+	width: 800px;
+	border: medium solid #022D59;
+}
+.CapstonePhoto2{
+	position: absolute;
+	padding: 10px;
+	text-align: center;
+	left: 370px;
+	top: 600px;
+	height: 300px;
+	width: 650px;
+	border: medium solid #022D59;
+}
+.CapstoneQR1{
+	position: absolute;
+	padding: 10px;
+	text-align: left;
+	left: 20px;
+	top: 600px;
+	height: 300px;
+	width: 300px;
+	border: medium solid #022D59;
+	font-size: 36px;
+	color: #095E03;
+	font-family: "Trebuchet MS", Arial, 						Helvetica, sans-serif;
+}
+.CapstoneQR2{
+	position: absolute;
+	left: 174px;
+	top: 754px;
+	height: 156px;
+	width: 156px;
+}
+
+/*****************************************************
+  Capstone Profile Page
+*****************************************************/
+
+
+.ClubName{
+	position: absolute;
+	padding: 10px;
+	left: 20px;
+	top: 100px;
+	border: medium solid #022D59;
+	font-size: 72px;
+	color: #095E03;
+	font-family: "Trebuchet MS", Arial, 						Helvetica, sans-serif;
+}
+.ClubNameLong{
+	position: absolute;
+	padding: 10px;
+	left: 20px;
+	top: 100px;
+	height: 100px;
+	border: medium solid #022D59;
+	font-size: 45px;
+	color: #095E03;
+	font-family: "Trebuchet MS", Arial, 						Helvetica, sans-serif;
+}
+.ClubDescription{
+	position: absolute;
+	padding: 10px;
+	text-align: left;
+	left: 20px;
+	top: 250px;
+	height: 300px;
+	width: 1000px;
+	border: medium solid #022D59;
+	font-size: 36px;
+	color: #095E03;
+	font-family: "Trebuchet MS", Arial, 						Helvetica, sans-serif;
+}
+p3{
+	color: #999999;
+	font-size: 24px;
+	font-family: "Trebuchet MS", Arial, 						Helvetica, sans-serif;
+}
+.ClubMission{
+	position: absolute;
+	padding: 10px;
+	text-align: left;
+	left: 1080px;
+	top: 100px;
+	height: 100px;
+	width: 800px;
+	border: medium solid #022D59;
+}
+m1 {
+	color: #095E03;
+	text-align: left;
+	font-size: 32px;
+	font-family: "Trebuchet MS", Arial, 						Helvetica, sans-serif;
+}
+m2 {
+	color: #095E03;
+	font-size: 24px;
+	font-family: "Trebuchet MS", Arial, 						Helvetica, sans-serif;
+}
+.ClubDetails{
+	position: absolute;
+	padding: 10px;
+	text-align: left;
+	left: 1080px;
+	top: 600px;
+	height: 300px;
+	width: 800px;
+	border: medium solid #022D59;
+	font-size: 36px;
+	color: #095E03;
+	font-family: "Trebuchet MS", Arial, 						Helvetica, sans-serif;
+}
+
+.ClubPhoto1{
+	position: absolute;
+	padding: 10px;
+	text-align: center;
+	left: 1080px;
+	top: 250px;
+	height: 300px;
+	width: 800px;
+	border: medium solid #022D59;
+}
+
+.ClubQR1{
+	position: absolute;
+	padding: 10px;
+	text-align: left;
+	left: 20px;
+	top: 600px;
+	height: 300px;
+	width: 300px;
+	border: medium solid #022D59;
+	font-size: 36px;
+	color: #095E03;
+	font-family: "Trebuchet MS", Arial, 						Helvetica, sans-serif;
+}
+.ClubQR2{
+	position: absolute;
+	left: 174px;
+	top: 754px;
+	height: 156px;
+	width: 156px;
+}
+
+.ClubPhoto2{
+	position: absolute;
+	padding: 10px;
+	text-align: center;
+	left: 370px;
+	top: 600px;
+	height: 300px;
+	width: 650px;
+	border: medium solid #022D59;
+}
+.ClubPhoto3{
+	position: absolute;
+	padding: 10px;
+	text-align: center;
+	left: 1100px;
+	top: 750px;
+	height: 200px;
+	width: 600px;
+}
+.ClubPhoto4{
+	position: absolute;
+	padding: 10px;
+	text-align: right;
+	left: 1550px;
+	top: 600px;
+	height: 300px;
+	width: 300px;
+}
